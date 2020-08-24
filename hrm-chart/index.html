@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Bluetooth</title>
+  </head>
+  <body>
+    <h1>HRM</h1>
+
+    <!-- Error messages appear here if user isn't using Chrome/doesn't have Web Bluetooth enabled -->
+    <div id="error"></div>
+
+    <form>
+      <button id="startNotifications">Start notifications</button>
+      <button id="stopNotifications" disabled>Stop notifications</button>
+    </form>
+
+    <div class="chart-container" style="position: relative; height:30vh; width:70vw">
+      <canvas id="line-chart"></canvas>
+    </div>
+
+    <script type="text/javascript" src="ble.js"></script>
+    <!-- Check that user is using Chrome and Web Bluetooth is enabled -->
+    <script type="text/javascript" src="../check.js"></script>
+    <!-- Chart scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script type="text/javascript" src="chart.js"></script>
+  </body>
+
+</html>
+
