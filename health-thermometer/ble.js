@@ -70,7 +70,7 @@ function onStopButtonClick() {
 
 function handleNotifications(event) {
 	let value = event.target.value;
-	log(`> ${Math.round(getFloatValue(value) * 10) / 10}`);
+	log(`> ${getFloatValue(value).toFixed(1)}`);
 }
 
 /* https://gist.github.com/mold/42935cb1bdda7ae9b3ec72e9d0fa8666 */
