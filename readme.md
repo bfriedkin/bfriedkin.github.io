@@ -2,8 +2,8 @@
 
 ### Contents
 
-- [Basic HRM](https://lprader.github.io/web-bluetooth/hrm/index.html)
-- [Basic HRM + battery level](https://lprader.github.io/web-bluetooth/hrm-battery/index.html)
-- [HRM with Chart.js](https://lprader.github.io/web-bluetooth/hrm-chart/index.html)
-- [Basic health thermometer](https://lprader.github.io/web-bluetooth/health-thermometer/index.html)
-- [Wi-Fi Connection](https://lprader.github.io/web-bluetooth/wifi-connection/index.html)
+- [Basic HRM](https://bfriedkin.github.io/hrm/index.html)
+- [Basic HRM + battery level](https://bfriedkin.github.io/hrm-battery/index.html)
+- [HRM with Chart.js](https://bfriedkin.github.io/hrm-chart/index.html)
+- [Basic health thermometer](https://bfriedkin.github.io/health-thermometer/index.html)
+- [Wi-Fi Connection](https://bfriedkin.github.io/wifi-connection/index.html)
